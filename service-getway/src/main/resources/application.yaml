@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: server-gateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.160.1.180:8848
